@@ -3,6 +3,7 @@ import thunk from 'redux-thunk';
 import { routerForBrowser } from 'redux-little-router';
 
 import rootReducer from './reducers';
+import reduxLogger from 'redux-logger';
 
 const routes = {
   '/': {
@@ -19,7 +20,7 @@ const routes = {
 const { reducer, middleware, enhancer } = routerForBrowser({ routes });
 
 const composedMiddleware = [
-  applyMiddleware(thunk, middleware)
+  applyMiddleware(thunk, middleware,reduxLogger)
 ];
 
 if (process.env.NODE_ENV !== 'production') {
