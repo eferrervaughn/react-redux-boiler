@@ -22,7 +22,7 @@ class Home extends React.Component {
         <Row>
           <Col xs={12} sm={6} smOffset={3}>
             <div className="text-center">
-              <h2>Home Tho</h2>
+              <h2>Home Tho Right</h2>
               <br/><br/>
               <div>
                 <form>
