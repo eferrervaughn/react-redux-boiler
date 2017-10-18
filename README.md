@@ -24,7 +24,7 @@
 
 - ✅ [Mocha](https://mochajs.org/), [Enzyme](http://airbnb.io/enzyme/) & [chai-enzyme](https://github.com/producthunt/chai-enzyme) testing to help you sleep better at night
 
-- 🌲 Monitor your actions and state with [redux-logger] (https://github.com/evgenyrodionov/redux-logger)
+- 🌲 Monitor your actions and state with [redux-logger](https://github.com/evgenyrodionov/redux-logger)
 
 ## Also recommended
 
