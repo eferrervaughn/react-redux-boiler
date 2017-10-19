@@ -26,6 +26,8 @@
 
 - 🌲 Monitor your actions and state with [redux-logger](https://github.com/evgenyrodionov/redux-logger)
 
+- 📤 Easy forms already associated to your state with [redux-form](https://redux-form.com/7.1.1/docs/gettingstarted.md/)
+
 ## Also recommended
 
  - 🔥 [Firebase](firebase.google.com) for hyper-simple app deployment hosting, authentication, & backend
