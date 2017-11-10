@@ -11,7 +11,6 @@ module.exports = {
     //write your rules here!
     "comma-dangle": ["error", "only-multiline"],
     "quotes": ["error", "single", { "allowTemplateLiterals": true }],
-    "indent": ["error", 2, { "SwitchCase": 1 }],
     "object-curly-spacing": ["error", "always"]
   }
 };
